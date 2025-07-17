@@ -1,4 +1,3 @@
-
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode: 'class',
@@ -6,15 +5,12 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-
   theme: {
     extend: {
       fontFamily: {
-        heading: ["'Space Grotesk'", "sans-serif"],
+        sans: ["'Space Grotesk'", "sans-serif"],
       },
-
     },
   },
-
   plugins: [],
 }
