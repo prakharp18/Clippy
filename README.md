@@ -16,7 +16,7 @@ Clippy is a beautiful, modern Chrome extension for URL shortening, QR code gener
 
 **Clipboard Integration**: Paste URLs directly from clipboard with one-click convenience.
 
-## � Tech Stack
+## 🔧 Tech Stack
 
 **Frontend**: React 18 with Vite for fast development and Tailwind CSS for modern styling  
 **Backend**: Express.js server with CORS support and CleanURI API integration  
@@ -47,9 +47,4 @@ npm run build
 3. Click "Load unpacked" → Select `dist` folder
 4. Pin the extension and start shortening URLs!
 
-## � License
-
-MIT License - feel free to fork, modify, and distribute.
-
----
 
