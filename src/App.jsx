@@ -23,19 +23,16 @@ export default function App() {
   };
 
   return (
-    // Add 'relative' class here
-    <div className="relative w-[360px] h-[620px] overflow-hidden shadow-2xl border border-white/10">
-      {/* Background */}
+    <div className="relative w-[360px] h-[480px] overflow-hidden shadow-2xl border border-white/10 rounded-lg">
       <img
         src={bg}
         alt="background"
-        className="absolute inset-0 h-full object-cover z-0"
+        className="absolute inset-0 h-full w-full object-cover z-0"
       />
 
-      {/* Content */}
-      <div className="relative z-10 flex flex-col items-center justify-start px-4 py-5 gap-5 text-white font-sans">
+      <div className="relative z-10 flex flex-col items-center justify-start px-4 py-4 gap-4 text-white font-sans h-full">
         <TabHeader activeTab={activeTab} setActiveTab={setActiveTab} />
-        <div className="w-full">{renderActiveTab()}</div>
+        <div className="w-full flex-1 overflow-y-auto">{renderActiveTab()}</div>
       </div>
     </div>
   );

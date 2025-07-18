@@ -1,5 +1,3 @@
-// src/utils/storage.js
-
 const STORAGE_KEY = 'clippy_data';
 
 export function getEntries() {
