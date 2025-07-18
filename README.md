@@ -47,24 +47,9 @@ npm run build
 3. Click "Load unpacked" → Select `dist` folder
 4. Pin the extension and start shortening URLs!
 
-## 📋 Usage
-
-**Shorten URLs**: Paste any URL, get shortened link instantly, copy with one click  
-**Generate QR Codes**: Enter URL, generate scannable QR code, download as PNG  
-**View History**: Access your latest 20 shortened URLs with original/short link pairs  
-
-## 🎨 Design
-
-Modern glassmorphism interface with:
-- Blue navigation tabs with orange/amber content areas
-- Responsive 360×480px popup optimized for browser extensions  
-- Smooth transitions and elegant hover effects
-- Error handling with contextual feedback
-
 ## � License
 
 MIT License - feel free to fork, modify, and distribute.
 
 ---
 
-⭐ **Star this repo if Clippy helps boost your productivity!**
