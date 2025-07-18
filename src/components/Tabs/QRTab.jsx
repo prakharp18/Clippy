@@ -49,7 +49,7 @@ export default function QRTab() {
 
   return (
     <div className="flex flex-col gap-2 h-full">
-  
+  {/*Input field*/}
       <input
         type="text"
         placeholder="Enter URL to generate QR code..."
